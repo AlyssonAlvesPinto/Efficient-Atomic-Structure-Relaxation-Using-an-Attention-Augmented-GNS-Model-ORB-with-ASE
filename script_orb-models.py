@@ -38,7 +38,7 @@ def log_fmax_and_energy():
     step_list.append(len(fmax_list))
 
 # Use the BFGS optimizer for structure relaxation
-dyn = BFGS(ucf, trajectory='go_orb.traj', logfile='opt.log')
+dyn = BFGS(ucf, trajectory='go_orb.traj')
 dyn.attach(log_fmax_and_energy, interval=1)
 dyn.run(fmax=0.01)  # Run relaxation until the maximum force is below 10 meV/Å
 
