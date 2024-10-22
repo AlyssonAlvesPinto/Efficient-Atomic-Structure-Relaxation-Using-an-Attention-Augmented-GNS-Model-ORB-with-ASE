@@ -28,7 +28,6 @@ ucf = ExpCellFilter(atoms, hydrostatic_strain=True)
 
 # Initialize lists to store data for plotting
 fmax_list = []
-energy_list = []
 step_list = []
 
 # Callback function to collect data during optimization
@@ -36,7 +35,6 @@ def log_fmax_and_energy():
     fmax = np.max(np.abs(atoms.get_forces()))
     energy = atoms.get_potential_energy()
     fmax_list.append(fmax)
-    energy_list.append(energy)
     step_list.append(len(fmax_list))
 
 # Use the BFGS optimizer for structure relaxation
