@@ -1,6 +1,6 @@
 # ORB Structure Relaxation
 
-Relax atomic structures using pre-trained machine learning models from [ORB-models](https://github.com/orbital-materials/orb-models), integrated with the [Atomic Simulation Environment (ASE)](https://github.com/hainm/ase).
+Relax atomic structures using pre-trained machine learning models from [ORB-models](https://github.com/orbital-materials/orb-models), integrated with the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/).
 
 ## 📌 Overview
 
