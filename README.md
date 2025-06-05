@@ -83,17 +83,6 @@ Run the relaxation script:
 python src/relax_orb.py
 ```
 
-This will generate:
-
-* `outputs/final_structure.vasp`
-* `outputs/neb_relaxation_plots.pdf`
-* `outputs/go_orb.traj`
-
-## 📈 Output Example
-
-The relaxation plot shows the evolution of maximum force per step:
-
-![Fmax Plot](outputs/neb_relaxation_plots.pdf)
 
 ## 📜 License
 
